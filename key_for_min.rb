@@ -5,8 +5,8 @@ def key_for_min_value(name_hash)
   lowest_cost = 0
   lowest_item = nil
 
-  name_hash.each do |item, cost|
-    if lowest_cost == 0 || value < lowest_cost
+  name_hash.each do |item, value|
+    if lowest_value == 0 || value < lowest_value
       lowest_value = value
       lowest_item = item
   end
