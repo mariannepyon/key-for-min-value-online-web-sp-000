@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   lowest_cost = 0
   lowest_key = nil
-  
+
   name_hash.collect do |key, cost|
     if lowest_cost == 0 || value < lowest_cost
       lowest_value = value
